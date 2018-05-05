@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+    <GROUP ID="1">
+        <DB ID="1" NAME="ORACLE187">
+            <TABLE ID="1">
+                <NAME>wta_topo_res_link</NAME>
+                <QUERY_SQL>SELECT * FROM wta_topo_res_link</QUERY_SQL>
+            </TABLE>
+        </DB>
+        <DB ID="2" NAME="ORACLE246">
+            <TABLE ID="1">
+                <NAME>rme_optic_term</NAME>
+                <QUERY_SQL>SELECT /*+parallel(8)*/ * FROM rme_optic_term</QUERY_SQL>
+            </TABLE>
+        </DB>
+    </GROUP>
+</configuration>
